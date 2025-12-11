@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+ 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Experiment9</title> 
+    <style> 
+        main { 
+            display: flex; 
+            flex-direction: column; 
+            box-sizing: border-box; 
+        } 
+ 
+        #box2 { 
+            display: flex; 
+            align-content: center; 
+           
+            margin-left: 50px; 
+            margin-right: 30px; 
+            /* justify-content: space-evenly; */ 
+        } 
+ 
+        #box3 { 
+            margin: 0px; 
+            margin-left: 10%; 
+            margin-bottom: 50px; 
+        } 
+ 
+        #box5 { 
+            margin: 0; 
+            margin-right: 10%; 
+        } 
+ 
+        #box4 { 
+            margin: 0; 
+            margin-left: 20px; 
+            margin-right: 20px; 
+        } 
+ 
+        .boxes { 
+            height: 300px; 
+            width: 700px; 
+            margin-left: 10px; 
+            margin-right: 100px; 
+            border: solid aliceblue 4px; 
+            border-radius: 30px; 
+            display: flex; 
+            flex-direction: column; 
+            text-align: center; 
+            align-content: center; 
+            margin-bottom: 70px; 
+            box-shadow: 0px 2px 2px 2px aliceblue; 
+            padding-top: 20px; 
+ 
+        } 
+ 
+        .boxes2 { 
+            height: 100px; 
+            width: 100px; 
+            border-radius: 50%; 
+            align-items: center; 
+            background-color: rgb(22, 22, 240); 
+            margin-left: 40%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            color: white; 
+        } 
+    </style> 
+</head> 
+ 
+<body> 
+    <main> 
+        <div id=box1> 
+            <p><big>Three student profile card arranged in row, alinged at a center of page.</big></p> 
+        </div> 
+        <div id="box2"> 
+            <div class="boxes" id="box3"> 
+                <div class="boxes2"><big> 
+                        <h1>JK</h1> 
+                    </big></div> 
+                <h2>Anurag Kumar</h2> 
+                B.Tech-CSE<br> 
+                Roll No:21CS1007<br> 
+                1st Year 
+            </div> 
+            <div class="boxes" id="box4"> 
+                <div class="boxes2"><big> 
+                        <h1>AR</h1> 
+                    </big></div> 
+                <h2>Atharva Mishra</h2> 
+                B.Tech-IT<br> 
+                Roll No:21IT1012<br> 
+                1st Year 
+            </div> 
+            <div class="boxes" id="box5"> 
+                <div class="boxes2"><big> 
+                        <h1>RK</h1> 
+                    </big></div> 
+                <h2>Rohit Kumar</h2> 
+                B.Tech-ECE<br> 
+                Roll No:21EC1009<br> 
+                1st Year 
+            </div> 
+        </div> 
+    </main> 
+</body> 
+ 
+</html>

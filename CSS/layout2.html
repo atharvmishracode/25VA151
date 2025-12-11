@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        /* Reset */
+        html, * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            color: #111;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 24px auto;
+            padding: 16px;
+        }
+
+        header {
+            height: 80px;
+            background: #1e90ff;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+            margin-bottom: 16px;
+        }
+
+        /* Layout grid: top full-width block, then two side-by-side blocks
+           with the left column slimmer than the right. */
+        .layout {
+            display: grid;
+            grid-template-columns: 1fr 2fr; /* left column slimmer than right */
+            grid-auto-rows: minmax(160px, auto);
+            gap: 16px;
+        }
+
+        .top {
+            grid-column: 1 / -1; /* span both columns */
+            background: #0b5394;
+            color: #fff;
+            height: 240px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+        }
+
+        .left {
+            background: #8fbac8;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+        }
+
+        .right {
+            background: #3aa6a6;
+            color: #fff;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <main>
+        <header><h2>Header</h2></header>
+
+        <div class="layout">
+            <div class="top"><h2>Long block (full width)</h2></div>
+            <div class="left"><h3>Slimmer half</h3></div>
+            <div class="right"><h3>Wider half</h3></div>
+        </div>
+
+    
+    </main>
+    
+</body>
+</html>

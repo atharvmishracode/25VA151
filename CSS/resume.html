@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atharva Mishra — Resume</title>
+  <meta name="description" content="Resume of Atharva Mishra, Junior Web Developer with skills in HTML, CSS, JavaScript, React, and Node.js.">
+  <style>
+    :root {
+      --text: #222;
+      --muted: #555;
+      --border: #e6e6e6;
+      --bg: #fafafa;
+      --accent-bg: #f5f7ff;
+    }
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 24px; color: var(--text); }
+    header { border-bottom: 2px solid #eee; padding-bottom: 12px; margin-bottom: 18px; }
+    h1 { margin: 0 0 6px 0; font-size: 1.8rem; letter-spacing: 0.2px; }
+    h2 { margin: 20px 0 8px 0; font-size: 1.25rem; }
+    h3 { margin: 12px 0 6px 0; font-size: 1.05rem; }
+    .contact { font-size: 0.95rem; color: var(--muted); display: flex; gap: 12px; flex-wrap: wrap; }
+    .contact a { color: inherit; text-decoration: none; }
+    .contact a:hover { text-decoration: underline; }
+    main { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; }
+    section { margin-bottom: 12px; }
+    .summary { background: var(--accent-bg); padding: 12px; border-radius: 8px; }
+    ul { margin: 8px 0 0 18px; }
+    li { margin: 4px 0; }
+    .taglist { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .tag { background: var(--bg); border: 1px solid var(--border); border-radius: 16px; padding: 6px 10px; font-size: 0.9rem; }
+    table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+    th, td { padding: 8px; border: 1px solid var(--border); text-align: left; }
+    thead th { background: #f2f2f2; }
+    .meta { color: var(--muted); font-size: 0.95rem; }
+    .role { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+    .role .title { font-weight: 600; }
+    footer { margin-top: 22px; font-size: 0.9rem; color: #666; }
+    @media (max-width: 800px) { main { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Atharva Mishra</h1>
+    <p class="contact" aria-label="Contact information">
+      <a href="mailto:atharv666mishra@gmail.com">atharv666mishra@gmail.com</a>
+      <span>•</span>
+      <a href="tel:+917970977728">+91 79709 77728</a>
+      <span>•</span>
+      <span>Ghaziabad, UP, India</span>
+      <span>•</span>
+      <a href="https://www.linkedin.com/in/atharva-mishra" rel="noopener">LinkedIn</a>
+      <span>•</span>
+      <a href="https://github.com/atharva-mishra" rel="noopener">GitHub</a>
+      <span>•</span>
+      <a href="https://atharva.dev" rel="noopener">Portfolio</a>
+    </p>
+  </header>
+
+  <main>
+    <section class="left">
+      <section aria-labelledby="profile">
+        <h2 id="profile">Profile</h2>
+        <div class="summary">
+          <p>
+            Recent Computer Science and Engineering graduate from <strong>ABES Engineering College</strong> with a focus on web development and user-centered design. I build clean, responsive, and accessible interfaces, and I care about performance and usability. Comfortable with HTML, CSS, JavaScript, and learning React/Node.js, I thrive in collaborative teams where I can contribute, iterate fast, and ship reliable features.
+          </p>
+        </div>
+      </section>
+
+      <section aria-labelledby="experience">
+        <h2 id="experience">Experience</h2>
+
+        <article aria-labelledby="abc-tech">
+          <div class="role">
+            <h3 id="abc-tech" class="title">Junior Web Developer — ABC Tech</h3>
+            <span class="meta">Jan 2025 — Present • Ghaziabad</span>
+          </div>
+          <p class="meta">HTML, CSS, JavaScript • Front-end feature development for client websites</p>
+          <ul>
+            <li>Implemented responsive layouts with Flexbox/Grid, improving mobile Lighthouse layout shift scores and usability.</li>
+            <li>Optimized images, bundling, and CSS delivery to reduce page load times and improve Core Web Vitals.</li>
+            <li>Partnered with UI/UX to meet WCAG AA standards using semantic HTML, color contrast, and keyboard navigation.</li>
+            <li>Contributed reusable components and documentation for consistent delivery across multiple projects.</li>
+          </ul>
+        </article>
+
+        <article aria-labelledby="accenture">
+          <div class="role">
+            <h3 id="accenture" class="title">Product Design Intern — Accenture</h3>
+            <span class="meta">Jun 2024 — Dec 2024</span>
+          </div>
+          <p class="meta">Prototyping • Front-end assistance • QA</p>
+          <ul>
+            <li>Designed landing page templates for marketing campaigns and handed off specs to engineering.</li>
+            <li>Built simple interactive prototypes to validate flows and microinteractions before development.</li>
+            <li>Tested pages across browsers/devices and documented setup steps for new team members.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section aria-labelledby="projects">
+        <h2 id="projects">Projects</h2>
+        <article>
+          <h3>Responsive Portfolio Site</h3>
+          <p class="meta">HTML, CSS, JavaScript • Performance, accessibility</p>
+          <ul>
+            <li>Built a fast, accessible personal site with semantic HTML, CSS utilities, and lazy-loaded assets.</li>
+            <li>Achieved high Lighthouse scores and implemented aria labels and keyboard focus management.</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Task Manager (Learning Project)</h3>
+          <p class="meta">React, Node.js, Express • CRUD • Local storage</p>
+          <ul>
+            <li>Implemented a simple task app with component state, list operations, and modular UI.</li>
+            <li>Practiced REST patterns with mock APIs and structured error handling.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section aria-labelledby="education">
+        <h2 id="education">Education</h2>
+        <table role="table">
+          <thead>
+            <tr>
+              <th scope="col">Degree</th>
+              <th scope="col">Institution</th>
+              <th scope="col">Year</th>
+              <th scope="col">CGPA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>B.Tech, Computer Science and Engineering</td>
+              <td>ABES Engineering College, Ghaziabad</td>
+              <td>2021 — 2025</td>
+              <td>9.5</td>
+            </tr>
+            <tr>
+              <td>Senior Secondary (12th)</td>
+              <td>Doon Public School</td>
+              <td>2021</td>
+              <td>9.7</td>
+            </tr>
+            <tr>
+              <td>Secondary (10th)</td>
+              <td>Kendriya Vidyalaya, Dhanbad</td>
+              <td>2019</td>
+              <td>9.4</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </section>
+
+    <aside class="right" aria-labelledby="skills">
+      <h2 id="skills">Skills</h2>
+      <div class="taglist" aria-label="Core skills">
+        <span class="tag">HTML5</span>
+        <span class="tag">CSS3</span>
+        <span class="tag">Responsive design</span>
+        <span class="tag">JavaScript (ES6)</span>
+        <span class="tag">Accessibility (WCAG)</span>
+        <span class="tag">Git & GitHub</span>
+        <span class="tag">React (learning)</span>
+        <span class="tag">Node.js (learning)</span>
+        <span class="tag">Performance optimization</span>
+      </div>
+
+      <h3>Certifications</h3>
+      <ul>
+        <li>Responsive Web Design (Coursera/FreeCodeCamp or equivalent)</li>
+        <li>JavaScript Basics (Platform name)</li>
+      </ul>
+
+      <h3>Achievements</h3>
+      <ul>
+        <li>Top CGPA in cohort at ABES (9.5)</li>
+        <li>Led a mini-hackathon UI rebuild (internal)</li>
+      </ul>
+
+      <h3>Interests</h3>
+      <ul>
+        <li>Design systems</li>
+        <li>Frontend performance</li>
+        <li>Web accessibility</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>References available upon request. Last updated: Nov 2025.</p>
+  </footer>
+</body>
+</html>
